@@ -4,7 +4,7 @@ import UnoCSS from 'unocss/vite'
 import presetAttributify from '@unocss/preset-attributify'
 import presetIcons from '@unocss/preset-icons'
 import presetUno from '@unocss/preset-uno'
-
+import checker from 'vite-plugin-checker'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
@@ -24,5 +24,6 @@ export default defineConfig({
       ],
     }),
     React(),
+    checker({typescript : true}),
   ],
 })
