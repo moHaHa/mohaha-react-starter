@@ -6,11 +6,14 @@ const Layout : FC<Layout> = ({})=> {
     return (
         <>
         <div className='plg bg-[#eaeaea] '>
-            <button>button</button>
+            <button onClick={()=> {
+                document.body.classList.toggle('dark');
+
+            }}>button</button>
             <h4>colors</h4>
             <ul>
                 <li>
-                    primary : <button className='bg-red p-8px'></button>
+                    primary : <button className='bg-red dark:bg-yellow p-8px'></button>
                 </li>
                 <li>
                     secondary : <button className='bg-teal p-8px'></button>
