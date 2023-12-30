@@ -1,0 +1,28 @@
+{
+  "name": "vite-react",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.42",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@unocss/core": "^0.58.2",
+    "@unocss/preset-attributify": "^0.58.2",
+    "@unocss/preset-icons": "^0.58.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.3.3",
+    "unocss": "^0.58.2",
+    "vite": "^5.0.10"
+  },
+  "stackblitz": {
+    "installDependencies": false,
+    "startCommand": "node .stackblitz.mjs && npm install && npm run dev"
+  }
+}
