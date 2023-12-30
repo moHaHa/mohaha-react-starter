@@ -46,6 +46,9 @@ devDependencies:
   unocss:
     specifier: ^0.58.2
     version: 0.58.2(postcss@8.4.32)(vite@5.0.10)
+  unocss-preset-theme:
+    specifier: ^0.12.0
+    version: 0.12.0(@unocss/core@0.58.2)
   vite:
     specifier: ^5.0.10
     version: 5.0.10
@@ -1838,6 +1841,15 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
     dev: false
+
+  /unocss-preset-theme@0.12.0(@unocss/core@0.58.2):
+    resolution: {integrity: sha512-zdK66OO7UoGts5ZP5mXH55D3Lu82EBL94+s+DH+NQemzhTyZaGIxrovFupsSlfTC4gdKCm89w6OeNac6FLIDUw==}
+    peerDependencies:
+      '@unocss/core': '>= 0.52.0'
+    dependencies:
+      '@unocss/core': 0.58.2
+      '@unocss/rule-utils': 0.58.2
+    dev: true
 
   /unocss@0.58.2(postcss@8.4.32)(vite@5.0.10):
     resolution: {integrity: sha512-M82hvJojUsjD98HWLhOU/SITD/9WuHhYoSrQYG6TAa7PuQKJbvxZnZP9hifVjiTSO/VN8MELcdwiuzTTa5GlKQ==}
