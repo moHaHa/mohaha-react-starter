@@ -6,10 +6,10 @@ const ProjectIcons: FC<ProjectIcons> = ({}) => {
 			<div>
 				<div className='flex'>
 					<div className='me-sm'>
-						<div className='i-kds-dine-in-simple text-40px'></div>
+						<div className='i-custom-dine-in-simple text-40px'></div>
 					</div>
 					<div className='me-sm'>
-						<div className='i-kds-dine-in-simple text-40px'></div>
+						<div className='i-custom-dine-in-simple text-40px'></div>
 					</div>
 				</div>
 			</div>
