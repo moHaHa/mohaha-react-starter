@@ -11,6 +11,10 @@ const DevLayout: FC<DevLayout> = ({}) => {
 			text: 'Components',
 		},
 		{
+			path: '/dev/icons',
+			text: 'Icons',
+		},
+		{
 			path: '/dev/themes',
 			text: 'Themes',
 		},
