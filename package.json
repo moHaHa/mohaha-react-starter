@@ -10,11 +10,9 @@
     "vite-plugin-checker": "^0.6.2"
   },
   "devDependencies": {
-    "@iconify-json/logos": "^1.1.42",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
     "@unocss/core": "^0.58.2",
-    "@unocss/preset-attributify": "^0.58.2",
     "@unocss/preset-icons": "^0.58.2",
     "@vitejs/plugin-react": "^4.2.1",
     "cross-env": "^7.0.3",

@@ -16,9 +16,6 @@ dependencies:
     version: 0.6.2(typescript@5.3.3)(vite@5.0.10)
 
 devDependencies:
-  '@iconify-json/logos':
-    specifier: ^1.1.42
-    version: 1.1.42
   '@types/react':
     specifier: ^18.2.45
     version: 18.2.46
@@ -26,9 +23,6 @@ devDependencies:
     specifier: ^18.2.18
     version: 18.2.18
   '@unocss/core':
-    specifier: ^0.58.2
-    version: 0.58.2
-  '@unocss/preset-attributify':
     specifier: ^0.58.2
     version: 0.58.2
   '@unocss/preset-icons':
@@ -587,12 +581,6 @@ packages:
     os: [win32]
     requiresBuild: true
     optional: true
-
-  /@iconify-json/logos@1.1.42:
-    resolution: {integrity: sha512-/f+frtPm3m3Z30oy8Pk+QqRDkbmAiIaWGPl5CmsCXm15MVfvw9a/V/gD7WzdyuSGAZcFuQaqbHXj92y/n+2ifg==}
-    dependencies:
-      '@iconify/types': 2.0.0
-    dev: true
 
   /@iconify/types@2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}

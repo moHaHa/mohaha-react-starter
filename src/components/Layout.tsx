@@ -42,7 +42,7 @@ const Layout: FC<Layout> = ({}) => {
               <div className="me-sm">
                 <div className="w-40px text-red">
                   <div className="i-logos-vue text-3xl" />
-                  <div className="i-kds-dine-in-simple text-red text-40px" />
+                  <div className="i-kds-dine-in-simple text-blue text-50px dark:text-white" />
                   <div className="i-kds-circle text-3xl" />
 
                   <div className="w-full flex items-center justify-center gap-x-4 text-4xl p-2 mt-4">
