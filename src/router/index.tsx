@@ -1,17 +1,4 @@
-import { Link, createBrowserRouter } from 'react-router-dom';
-
-export const router = createBrowserRouter([
-	{
-		path: '/',
-		element: (
-			<div>
-				<h1>Hello World</h1>
-				<Link to='about'>About Us</Link>
-			</div>
-		),
-	},
-	{
-		path: 'about',
-		element: <div>About</div>,
-	},
-]);
+import { createBrowserRouter } from 'react-router-dom';
+import { devRoutes } from '~/modules/dev/routes';
+import { moduleRoutes } from '~/modules/module/routes';
+export const router = createBrowserRouter([moduleRoutes, devRoutes]);

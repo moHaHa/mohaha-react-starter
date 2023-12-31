@@ -1,7 +1,10 @@
+import _t from './lang';
+
 function App() {
 	return (
 		<>
 			<div className='plg bg-container text-text '>
+				<button>{_t('hi')}</button>
 				<button
 					onClick={() => {
 						document.body.classList.remove('sky');
